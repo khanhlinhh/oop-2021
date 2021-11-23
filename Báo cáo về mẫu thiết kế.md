@@ -17,14 +17,14 @@
     - 1 Super Class là 1 Abstract Class - *RoujiaMoStore* đại diện cho cửa hàng bán bánh Rou Ji A nói chung.
     - Các Sub Class là các chi nhánh cửa hàng. *(XianKuRoujiMo, XianSuanRoujiMo, XianlaRoujiMo, XianSuanRoujiMo)*
     - 1 Factory Class - *XianSimpleRoujiaMoFactory* sẽ nhận input rồi trả lại chi nhánh tương ứng.
-    - AbstractFactory là
+    - AbstractFactory là RoujiaMoYLFactory (RoujiaMoYLFactory.java) đại diện cho một nhà máy để cung cấp nguyên liệu.
 - Khác nhau: không có sự khác nhau.
 
 ### Abstract Factory:
 - Giống nhau:
     - **Abstract Factory:** 1 Interface *RouJiaMoYLFactroy* chứa các phương thức tạo đối tượng là nguyên liệu làm ra món Rou Ji A. (Meat, Yuan Liao).
     - **Product** Các đối tượng Meat, Yuan Liao có các class con (đối tượng cụ thể): *XianFreshMeet*, *ChangShaFreshMeet, XianFreshYuanLiao*, *ChangShaFreshMeetYuanLiao,...)* là các ****Concrete Factory.**
-    - : **Client**: RoujiaMo.java
+    - **Client**: RoujiaMo.java
 - Khác nhau: Abstract Factory chứa phương thức tạo đối tượng không phải abstract *(Meat, Yuan Liao) →* **Không có Abstract Factory** mà chỉ có class thường.
 
 ### Builder:
