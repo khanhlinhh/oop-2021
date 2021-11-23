@@ -17,7 +17,6 @@
     - 1 Super Class là 1 Abstract Class - *RoujiaMoStore* đại diện cho cửa hàng bán bánh Rou Ji A nói chung.
     - Các Sub Class là các chi nhánh cửa hàng. *(XianKuRoujiMo, XianSuanRoujiMo, XianlaRoujiMo, XianSuanRoujiMo)*
     - 1 Factory Class - *XianSimpleRoujiaMoFactory* sẽ nhận input rồi trả lại chi nhánh tương ứng.
-    - AbstractFactory là RoujiaMoYLFactory (RoujiaMoYLFactory.java) đại diện cho một nhà máy để cung cấp nguyên liệu.
 - Khác nhau: không có sự khác nhau.
 
 ### Abstract Factory:
