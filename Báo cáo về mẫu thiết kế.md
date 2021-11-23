@@ -24,7 +24,7 @@
     - **Abstract Factory:** 1 Interface *RouJiaMoYLFactroy* chứa các phương thức tạo đối tượng là nguyên liệu làm ra món Rou Ji A. (Meat, Yuan Liao).
     - **Product** Các đối tượng Meat, Yuan Liao có các class con (đối tượng cụ thể): *XianFreshMeet*, *ChangShaFreshMeet, XianFreshYuanLiao*, *ChangShaFreshMeetYuanLiao,...)* là các ****Concrete Factory.**
     - **Client**: RoujiaMo.java
-- Khác nhau: Abstract Factory chứa phương thức tạo đối tượng không phải abstract *(Meat, Yuan Liao) →* **Không có Abstract Factory** mà chỉ có class thường.
+- Khác nhau: Abstract Factory chứa phương thức tạo đối tượng không phải abstract *(Meat, Yuan Liao) →* **Không có Abstract Product** mà chỉ có class thường.
 
 ### Builder:
 - Giống nhau: có **Builder** *(Builder.java)* là 1 abstract class và được kế thừa bởi 1 **ConcreteBuilder** *(ConcreteBuider.java)*, có **Director** *(Director.java)* để gọi tới Builder.
